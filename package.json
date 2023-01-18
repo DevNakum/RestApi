@@ -1,0 +1,23 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Dev Nakum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "validator": "^13.7.0"
+  }
+}
